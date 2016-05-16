@@ -1,4 +1,3 @@
-console.log(chrome.storage)
 
 // Saves options to chrome.storage.sync.
 function save_options() {
@@ -13,6 +12,7 @@ function save_options() {
             status.textContent = '';
         }, 750);
     });
+    window.close();
 }
 
 // Restores select box and checkbox state using the preferences
