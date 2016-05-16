@@ -1,0 +1,17 @@
+#status{
+    height: 20px;
+    color: red;
+    float: left;
+}
+
+.buttonBar{
+    background-color: #EDEDED;
+    margin: 8px -8px -8px -8px;
+    padding: 8px;
+    text-align: right;
+    border-top: 1px solid #DDD;
+}
+
+body{
+    margin-bottom: 0;
+}
